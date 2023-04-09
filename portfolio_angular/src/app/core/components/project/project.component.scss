@@ -61,3 +61,16 @@ footer {
     margin: 0 auto;
     max-height: auto;
 }
+
+button{
+    background-color: transparent;
+    border: 2px solid #E63946;
+    color: #E63946;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out; /* Agregar transición */
+}
+
+button:hover {
+  color: #70C1B3;
+  cursor: pointer;
+}
