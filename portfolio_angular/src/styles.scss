@@ -1,4 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
+@import "bootstrap/scss/bootstrap";
+* {
+  box-sizing: border-box;
+}
+body{
+    font-family: 'RobotoMono-ExtraLight', sans-serif;
+    background-color: #0A192F;
+}
+h1{
+    color:#E63946;
+}
+p{
+    color:#A8DADC;
+}
+h2{
+    color:#E63946;
+}
+h3{
+    color:#70C1B3;
+}

@@ -1,4 +1,60 @@
 section{
-    width: 900px;
-    height: 1000px;
+    margin: 0px auto;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 5%;
+}
+@media (max-width: 480px){
+    .main{
+        padding: 0px 25px;
+    }  
+}
+@media (max-width: 480px){
+    .main{
+        padding: 0px 25px;
+    }  
+}
+@media (max-width: 768px){
+    .main {
+        display: block;
+    }
+}
+@media (max-width: 1080px){
+    .main {
+        left: auto;
+        right: 20px;
+    }
+}
+.project-section{
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+.about-section{
+
+    min-height: 100vh;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px auto;
+}
+.experience-section{
+    min-height: 100vh;
+    height: 100vh;
+    max-height: auto;
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+.contact-section{
+    height: auto;
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+.introduction-section{
+    min-height: 100vh;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px auto;
+    flex-direction: column;
+    
 }

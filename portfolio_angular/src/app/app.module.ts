@@ -9,6 +9,9 @@ import { Main } from './core/components/main/main.component';
 import { Contact } from './core/components/contact/contact.component';
 import { About } from './core/components/about/about.component';
 import { Projects } from './core/components/project/project.component';
+import { Introduction } from './core/components/introduction/introduction.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { Experience } from './core/components/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -17,16 +20,27 @@ import { Projects } from './core/components/project/project.component';
     Main,
     Contact,
     About,
-    Projects
+    Projects,
+    Introduction,
+    Experience
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent,  NavBar, Main, Contact,
+  bootstrap: [
+    AppComponent,  
+    NavBar, 
+    Main, 
+    Contact,
     About,
-    Projects]
+    Projects,
+    Introduction,
+    Experience
+  ]
 })
 export class AppModule { }

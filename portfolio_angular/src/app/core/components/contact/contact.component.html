@@ -1,0 +1,56 @@
+<div class="contact-content">
+    <h1>Get In touch</h1>
+    <a class="nav-link button-similarity link" href="mailto:{{this.email}}">
+        Say Hello
+    </a>
+</div>
+
+
+
+
+
+
+
+
+<!-- 
+<form [formGroup]="contactForm" (ngSubmit)="submitForm()">
+    <div class="form-field">
+        <label  for="name">Name</label>
+        <input
+            type="text"
+            id="name"
+            class="form-control"
+            name="name"
+            formContolName="name"
+            required
+        >
+        <span class="text-danger" *ngIf="contactForm.hasError('required','name') && (contactForm.controls['name'].dirty || contactForm.controls['name'].touched)">name is required</span>
+    </div>
+    <div class="form-field">
+        <label  for="email">Email</label>
+        <input
+            type="text"
+            id="email"
+            name="email"
+            class="form-control"
+            formContolName="email"
+            required
+        >
+        <span class="text-danger" *ngIf="contactForm.hasError('required','email') && (contactForm.controls['email'].dirty || contactForm.controls['email'].touched)">email is required</span>
+    </div>
+
+    <div class="form-field">
+        <label for="message">Message</label>
+        <input
+            type="text"
+            id="message"
+            name="message"
+            class="form-control"
+            formControlName="message"
+            required
+        >
+        <span class="text-danger" *ngIf="contactForm.hasError('required','message') && (contactForm.controls['message'].dirty || contactForm.controls['message'].touched)">message is required</span>
+    </div>
+    <button type="submit" [disabled]="!contactForm.valid"> Submit </button>
+</form>
+-->

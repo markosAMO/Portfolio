@@ -6,6 +6,9 @@ import { Component } from "@angular/core";
     templateUrl: './project.component.html',
     styleUrls: ['./project.component.scss']
 })
-export class Proyects{
-
+export class Projects{
+    openPdf(pdfAdress:string):void{
+        console.log("click")
+        window.open(pdfAdress, '_blank');
+    }
 }
