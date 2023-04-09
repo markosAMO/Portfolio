@@ -21,3 +21,24 @@ h2{
 h3{
     color:#70C1B3;
 }
+::-webkit-scrollbar {
+    background-color:transparent;
+  }
+  
+  /* scrollbar track */
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  
+  /* scrollbar handle */
+  ::-webkit-scrollbar-thumb {
+    height: 10px;
+    background-color: #A8DADC;
+    border-radius: 10px;
+  }
+  
+  /* scrollbar handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #70C1B3;
+  }

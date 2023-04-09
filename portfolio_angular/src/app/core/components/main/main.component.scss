@@ -3,7 +3,6 @@ section{
 }
 .main{
     width: 100%;
-    min-height: 100vh;
     padding: 0 5%;
 }
 @media (max-width: 480px){
@@ -28,19 +27,21 @@ section{
     }
 }
 .project-section{
+    max-width: 1000px;
     margin: 0px auto;
     padding: 100px 0px;
+ //   display: flex;
+ //   align-items: center;
+ //   justify-content: center;
 }
 .about-section{
-
-    min-height: 100vh;
+    padding-bottom: 150px;
     height: auto;
-    padding: 0px;
+    height: auto;
     margin: 0px auto;
 }
 .experience-section{
-    min-height: 100vh;
-    height: 100vh;
+    height: auto;
     max-height: auto;
     margin: 0px auto;
     padding: 100px 0px;
