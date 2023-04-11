@@ -6,6 +6,7 @@ import { Component } from "@angular/core";
   styleUrls: ['./navbar.component.scss']
 })
 export class NavBar {
+  public isCollapsed = true;
   toHome() {
 
   }

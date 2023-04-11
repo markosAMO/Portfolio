@@ -20,13 +20,29 @@ a{
 .navbar-nav {
     margin-left: auto;
   }
-  
-  .navbar-nav .button-similarity {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
 .imagen{
     width: 30px;
     height: auto;
 }
+.navbar-toggler {
+    margin-right: 10px;
+    background-color: #70C1B3 !important;
+}
+.navbar-nav li.nav-item:hover a.nav-link {
+    color: #E63946 !important;
+  }
+.navbar-toggler-icon {
+    color: #70C1B3;
+}
+@media (max-width: 767px) {
+    .navbar-nav {
+      margin: 0 auto;
+      display: table;
+      table-layout: fixed;
+      float: none;
+    }  
+    .navbar-nav > li > a {
+      display: block;
+      text-align: center;
+    }
+  }

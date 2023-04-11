@@ -1,15 +1,15 @@
-<nav class="navbar navbar-expand-lg">
+
+<nav class="navbar navbar-expand-md">
     <a class="navbar-brand" href="#"><img class="imagen" src="..\assets\images\Blue and White Circuit Technology Logo (1200 × 1200 px).png"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" (click)="isCollapsed=!isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarSupportedContent">
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngbCollapse]="isCollapsed">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link"  href="#about">About</a>
         </li>
-        
         <li class="nav-item">
           <a class="nav-link" href="#experience">Experience</a>
         </li>
