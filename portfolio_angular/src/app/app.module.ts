@@ -12,7 +12,9 @@ import { Projects } from './core/components/project/project.component';
 import { Introduction } from './core/components/introduction/introduction.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Experience } from './core/components/experience/experience.component';
-
+import { MatIconModule } from '@angular/material/icon'
+import { HttpClientModule } from '@angular/common/http'
+import { Footer } from './core/components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,25 +24,22 @@ import { Experience } from './core/components/experience/experience.component';
     About,
     Projects,
     Introduction,
-    Experience
+    Experience,
+    Footer
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatIconModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [
     AppComponent,  
-    NavBar, 
-    Main, 
-    Contact,
-    About,
-    Projects,
-    Introduction,
-    Experience
+    NavBar,
   ]
 })
 export class AppModule { }

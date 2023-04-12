@@ -3,15 +3,15 @@
 }
 
 a{
-    color:#70C1B3;
+    color:var(--second-color);
 }
 
 .navbar{
-    border: 2px solid #E63946;
+    border: 2px solid var(--main-color);
     border-radius: 0;
 }
 .navbar-brand{
-    color:#E63946;
+    color:var(--main-color);
 }
 
 .nav-item{
@@ -26,13 +26,13 @@ a{
 }
 .navbar-toggler {
     margin-right: 10px;
-    background-color: #70C1B3 !important;
+    background-color: var(--second-color) !important;
 }
 .navbar-nav li.nav-item:hover a.nav-link {
-    color: #E63946 !important;
+    color: var(--main-color) !important;
   }
 .navbar-toggler-icon {
-    color: #70C1B3;
+    color: var(--second-color);
 }
 @media (max-width: 767px) {
     .navbar-nav {

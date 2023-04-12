@@ -9,7 +9,10 @@
                 <div class="content-displayed">
                     <div class="project-description">
                         <header>
-                            <h3 class="card-tittle">This Portfolio</h3>
+                            <div class="card-top">
+                                <h3 class="card-tittle">This Portfolio </h3>
+                                
+                            </div>
                             <p>Take a look at the code for make this portfolio!</p>
                         </header>
                         <footer>
@@ -18,13 +21,9 @@
                                 <li><p>HTML</p></li>
                                 <li><p>CSS</p></li>
                             </ul>
-                            <button (click)="
-                  openPdf(
-                    '..\\assets\\files\\proyecto_LINTI_2023-PREDICCIÓN_DE_ENFERMEDADES_EN_CULTIVOS_AGROECOLÓGICOS.pdf'
-                  )
-                ">
-                                Read More
-                            </button>
+                            <a href="https://github.com/markosAMO/Portfolio" target="_blank">
+                                <mat-icon class="github-icon" svgIcon="github"></mat-icon>
+                            </a>
                         </footer>
                     </div>
                 </div>
@@ -100,7 +99,10 @@
                     
                     <div class="project-description">
                         <header>
-                            <h3 class="card-tittle">OTA Web for ESP32</h3>
+                            <div class="card-top">
+                                <h3 class="card-tittle">OTA Web for ESP32</h3>
+                                
+                            </div>
                             <p>
                                 A research project for the implementation of OTA (over the air)
                                 Web, for ESP32 Mcu, along with the develop of a client to upload
@@ -114,10 +116,16 @@
                                 <li><p>Python</p></li>
                                 <li><p>MongoDB</p></li>
                             </ul>
+                            
                         </footer>
-                        <button (click)="openPdf('..\\assets\\files\\N6 ESP32 OTA WEB.pdf')">
-                            Read More
-                        </button>
+                        <div class="references">
+                            <button (click)="openPdf('..\\assets\\files\\N6 ESP32 OTA WEB.pdf')">
+                                Read More
+                            </button>
+                            <a href="https://github.com/markosAMO/TP2-ESP32_OTA_WEB" target="_blank">
+                                <mat-icon class="github-icon" svgIcon="github"></mat-icon>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
